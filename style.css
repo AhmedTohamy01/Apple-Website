@@ -146,11 +146,10 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: repeat(9, auto); */
-}
+} */
 
 /* ######################################### NAV BAR ############################################ */
 
@@ -163,26 +162,51 @@ html {
     border-radius: 5px;
     color: white; */
     /* border: solid red; */
-  background-image: url("./img/1.jpg");
+  background-image: url("./img/main.jpg");
   background-position: bottom;
   height: 550px;
   max-width: 1435px;
 
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
 }
 
 
 /* ######################################### SMALL IMAGES ############################################ */
 
 .small-images {
-  background-color: royalblue;
+  /* background-color: royalblue;
   border-radius: 5px;
-  color: white;
-  border: solid white;
-  grid-column: 1/-1;
+  color: white; */
+  border: solid green;
+  /* grid-column: 1/-1; */
+}
+
+.small-images div {
+  background-position: center;
+  height: 200px;
+  max-width: 364px;
 }
 
 
+
+
+.first-image {
+  background-image: url("./img/1.jpg");
+}
+
+.second-image {
+  background-image: url("./img/2.jpg");
+}
+
+.third-image {
+  background-image: url("./img/3.jpg");
+
+}
+
+.forth-image {
+  background-image: url("./img/4.jpg");
+
+}
 /* #########################################  FOOTER ############################################ */
 
 .footer {
@@ -192,6 +216,6 @@ html {
   border: solid white;
 
 
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
 
 }
