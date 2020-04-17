@@ -164,7 +164,7 @@ html {
     /* border: solid red; */
   background-image: url("./img/main.jpg");
   background-position: bottom;
-  height: 550px;
+  height: 590px;
   max-width: 1435px;
 
   /* grid-column: 1/-1; */
@@ -177,36 +177,43 @@ html {
   /* background-color: royalblue;
   border-radius: 5px;
   color: white; */
-  border: solid green;
+  /* border: solid green; */
   /* grid-column: 1/-1; */
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 2px;
 }
 
 .small-images div {
   background-position: center;
   height: 200px;
-  max-width: 364px;
+  /* width: 24%; */
+  flex-basis: 24.8%;
+  /* border: solid red; */
 }
-
-
-
 
 .first-image {
   background-image: url("./img/1.jpg");
+  /* margin-right: 2px; */
 }
 
 .second-image {
   background-image: url("./img/2.jpg");
+  /* margin-right: 2px; */
 }
 
 .third-image {
   background-image: url("./img/3.jpg");
-
+  /* margin-right: 2px; */
 }
 
 .forth-image {
   background-image: url("./img/4.jpg");
-
 }
+
+
 /* #########################################  FOOTER ############################################ */
 
 .footer {
