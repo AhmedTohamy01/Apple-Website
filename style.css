@@ -137,9 +137,13 @@ table {
 
 /* ######################################### MAIN PAGE LAYOUT ############################################ */
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
 }
 
 .grid {
@@ -152,41 +156,42 @@ html {
 
 
 
-/* ######################################### MAIN IMAGE ############################################ */
+/* ######################################### MAIN SECTION ############################################ */
 
-.main-image {
-    background-color: royalblue;
+.main-section {
+    /* background-color: royalblue;
     border-radius: 5px;
-    color: white;
-    border: solid white;
+    color: white; */
+    /* border: solid red; */
+  background-image: url("./img/1.jpg");
+  background-position: bottom;
+  height: 550px;
+  max-width: 1435px;
 
-
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 }
 
 
 /* ######################################### SMALL IMAGES ############################################ */
 
 .small-images {
-    background-color: royalblue;
-    border-radius: 5px;
-    color: white;
-    border: solid white;
-
-    grid-column: 1/-1;
-
+  background-color: royalblue;
+  border-radius: 5px;
+  color: white;
+  border: solid white;
+  grid-column: 1/-1;
 }
 
 
 /* #########################################  FOOTER ############################################ */
 
 .footer {
-    background-color: royalblue;
-    border-radius: 5px;
-    color: white;
-    border: solid white;
+  background-color: royalblue;
+  border-radius: 5px;
+  color: white;
+  border: solid white;
 
 
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 
 }
