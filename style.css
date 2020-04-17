@@ -1,6 +1,6 @@
 /* CSS RESET FILE */
 
-html,
+/* html,
 body,
 div,
 span,
@@ -86,11 +86,11 @@ video {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-}
+} */
 
 /* HTML5 display-role reset for older browsers */
 
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -129,7 +129,7 @@ q::after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */
 
 /* TABLE OF CONTENT */
 
@@ -137,3 +137,56 @@ table {
 
 /* ######################################### MAIN PAGE LAYOUT ############################################ */
 
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: repeat(9, auto); */
+}
+
+/* ######################################### NAV BAR ############################################ */
+
+
+
+/* ######################################### MAIN IMAGE ############################################ */
+
+.main-image {
+    background-color: royalblue;
+    border-radius: 5px;
+    color: white;
+    border: solid white;
+
+
+    grid-column: 1/-1;
+}
+
+
+/* ######################################### SMALL IMAGES ############################################ */
+
+.small-images {
+    background-color: royalblue;
+    border-radius: 5px;
+    color: white;
+    border: solid white;
+
+    grid-column: 1/-1;
+
+}
+
+
+/* #########################################  FOOTER ############################################ */
+
+.footer {
+    background-color: royalblue;
+    border-radius: 5px;
+    color: white;
+    border: solid white;
+
+
+    grid-column: 1/-1;
+
+}
