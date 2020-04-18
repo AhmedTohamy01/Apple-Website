@@ -146,11 +146,6 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-} */
-
 /* ######################################### NAV BAR ############################################ */
 
 
@@ -158,61 +153,70 @@ html {
 /* ######################################### MAIN SECTION ############################################ */
 
 .main-section {
-    /* background-color: royalblue;
-    border-radius: 5px;
-    color: white; */
-    /* border: solid red; */
   background-image: url("./img/main.jpg");
   background-position: bottom;
   height: 590px;
-  max-width: 1435px;
-
-  /* grid-column: 1/-1; */
+  max-width: 1440px;
 }
 
 
 /* ######################################### SMALL IMAGES ############################################ */
 
-.small-images {
-  /* background-color: royalblue;
-  border-radius: 5px;
-  color: white; */
-  /* border: solid green; */
-  /* grid-column: 1/-1; */
-
+.small-blocks {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 2px;
-}
-
-.small-images div {
-  background-position: center;
-  height: 200px;
-  /* width: 24%; */
-  flex-basis: 24.8%;
+  max-width: 1440px;
   /* border: solid red; */
 }
 
-.first-image {
+.small-blocks div {
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  flex-basis: 24.9%;
+  /* border: solid red; */
+}
+
+.first-block {
   background-image: url("./img/1.jpg");
-  /* margin-right: 2px; */
 }
 
-.second-image {
+.second-block {
   background-image: url("./img/2.jpg");
-  /* margin-right: 2px; */
 }
 
-.third-image {
+.third-block {
   background-image: url("./img/3.jpg");
-  /* margin-right: 2px; */
 }
 
-.forth-image {
+.forth-block {
   background-image: url("./img/4.jpg");
 }
 
+
+@media screen and (max-width: 900px) {
+
+  .small-blocks div {
+    flex-basis: 49.9%;
+    background-position: top;
+    background-size: cover;
+
+  }
+
+@media screen and (max-width: 480px) {
+
+  .small-blocks div {
+    flex-basis: 100%;
+    background-position: top;
+    background-size: cover;
+    min-width: 375px;
+
+  }
+
+
+}
 
 /* #########################################  FOOTER ############################################ */
 
