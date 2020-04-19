@@ -164,11 +164,6 @@ html {
   height: 38px;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: white;
-}
-
 .navbar button {
   background: linear-gradient(to top, rgb(126, 120, 120) 50%, rgb(107, 102, 102) 50%);
   box-shadow: none;
@@ -179,6 +174,7 @@ html {
   border-bottom: 1px solid rgb(104, 102, 102);;
   font-size: 13px;
   font-weight: 500;
+  color: white;
 }
 
 .navbar button:hover {
@@ -362,6 +358,7 @@ html {
   .mainwords {
     padding-top: 15%;
   }
+}
 
 @media screen and (max-width: 480px) {
   .small-blocks div {
