@@ -134,7 +134,7 @@ table {
 /* ######################################### PAGE MAIN SETTINGS ############################################ */
 
 html {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* ######################################### MAIN SECTION ############################################ */
@@ -157,7 +157,7 @@ html {
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  position: relative; 
+  position: relative;
   margin-top: 10%;
   margin-right: 15%;
   margin-left: 15%;
@@ -170,8 +170,8 @@ html {
   width: 103px;
   border-right: 1px solid rgb(92, 85, 85);
   border-left: none;
-  border-top: 1px solid rgb(104, 102, 102);;
-  border-bottom: 1px solid rgb(104, 102, 102);;
+  border-top: 1px solid rgb(104, 102, 102);
+  border-bottom: 1px solid rgb(104, 102, 102);
   font-size: 13px;
   font-weight: 500;
   color: white;
@@ -251,6 +251,11 @@ html {
   text-decoration: none;
 }
 
+.footer a {
+  text-decoration: none;
+  color: rgb(88, 88, 219);
+}
+
 .thirdword a:hover {
   text-decoration: underline;
 }
@@ -300,11 +305,6 @@ html {
   max-width: 1440px;
 }
 
-.footer a {
-  text-decoration: none;
-  color: rgb(88, 88, 219);
-}
-
 .stores {
   padding-bottom: 10px;
   margin-left: 10%;
@@ -326,11 +326,11 @@ html {
 /* #########################################  MEDIA QUERY ############################################ */
 
 @media screen and (max-width: 1200px) {
-  .footer { 
+  .footer {
     display: block;
     text-align: center;
   }
-  
+
   .stores {
     margin-left: initial;
   }
@@ -367,7 +367,7 @@ html {
     background-size: cover;
     min-width: 375px;
   }
-  
+
   .secondword {
     display: none;
   }
