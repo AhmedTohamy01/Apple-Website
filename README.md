@@ -4,7 +4,7 @@
 
 ![screenshot](./img/screenshot.jpg)
 
-The website is a clone of Apple Inc. website @ 2014.
+A clone of Apple website home page @ 2014.
 
 ## Built With
 
