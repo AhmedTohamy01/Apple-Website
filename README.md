@@ -14,7 +14,7 @@ The website is a clone of Apple Inc. website @ 2014.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/AhmedTohamy01/Apple-Website/Apple-Website-Clone/index.html)
+[Live Demo Link](https://raw.githack.com/AhmedTohamy01/Apple-Website/master/index.html)
 
 
 ## Authors
