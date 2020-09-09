@@ -137,6 +137,11 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.site-wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
 /* ######################################### MAIN SECTION ############################################ */
 
 .main-section {
