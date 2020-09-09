@@ -301,7 +301,6 @@ html {
 /* #########################################  FOOTER ############################################ */
 
 .footer {
-  padding-top: 20px;
   font-size: 11px;
   color: rgb(95, 93, 93);
   display: flex;
@@ -369,18 +368,17 @@ html {
     font-size: 3rem;
     padding-top: 60px;
   }
-  
+
   .second-word {
     font-size: 1.5rem;
-
     padding: 20px 50px 0 50px;
     line-height: 3rem;
   }
-  
+
   .third-word {
     padding-top: 30px;
   }
-  
+
   .third-word a {
     color: white;
     font-size: 1.2rem;
