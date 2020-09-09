@@ -45,7 +45,10 @@ I have built this project using the following tools & techniques:
 - HTML.
 - CSS.
 - CSS FlexBox.
-
+- VSCode.
+- Git.
+- Github.
+- Github Pages.
 
 # How To Use
 
