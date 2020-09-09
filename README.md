@@ -1,36 +1,82 @@
-# Apple Inc. Website Clone.
+
+<h1 align="center">
+  <img title="PETTY" src="https://github.com/AhmedTohamy01/Apple-Website/blob/master/img/readme/3.jpg" alt="Petty Logo" width="500" />
+  <br>
+  Fully Responsive clone of Apple website home page @ 2014 
+  <br> 
+  Built Using Pure HTML & CSS
+</h1>
+
+<p><font size="3">
+  This is a Fully Responsive clone of Apple website home page @ 2014. Built using pure HTML\CSS only.
+  
+  There is No JavaScript or Back-end in the project. This project to show my abilities in building a fully responsive website using only Pure HTML & CSS.
+  <br><br> 
+  <strong><em>Take a look at the live version here:</em></strong> https://ahmedtohamy01.github.io/Apple-Website/ :octocat: :heart_eyes:
+</p>
+
+## Table of Contents
+
+- [Live Demo](#live-demo)
+- [Technology Used](#technology-used)
+- [How To Use](#how-to-use)
+- [Author](#author)
+- [Show Your Support](#show-your-support)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 
+# Home Page
 
-![screenshot](./img/screenshot.jpg)
+<div align="center"><a name="menu"></a>
 
-A clone of Apple website home page @ 2014.
+![ScreenShot](/img/readme/1.jpg)
+![ScreenShot](/img/readme/2.jpg)
+</div>
 
-## Built With
+# Live Demo
 
+***Take a look at the live version here:*** https://ahmedtohamy01.github.io/Apple-Website/ :octocat: :heart_eyes: 
+
+
+# Technology Used
+
+I have built this project using the following tools & techniques:
 - HTML.
 - CSS.
+- CSS FlexBox.
 
 
-## Live Demo
+# How To Use
 
-[Live Demo Link](https://raw.githack.com/AhmedTohamy01/Apple-Website/master/index.html)
+1) From your terminal, you should do the following:
+
+```cmd
+# Clone this repository
+git clone https://ahmedtohamy01.github.io/Apple-Website
+
+```
+
+2) Go to "Apple-Website" folder and open the index.html file.
 
 
-## Authors
+# Author
 
 👤 **Ahmed Tohamy**
+- Github: https://github.com/AhmedTohamy01
+- Linkedin: https://www.linkedin.com/in/ATohamy
+- Email: Ahmed-Tohamy@outlook.com
 
-- Github: [@githubhandle](https://github.com/AhmedTohamy01)
-- Twitter: [@twitterhandle](https://twitter.com/AhmedTohamy01)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ATohamy)
-
-
-## Show your support
+# Show Your Support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+# Acknowledgments
 
-- Hat tip to anyone who helped me to learn the technology used in building this website.
+Hat tip to everyone helped me to learn the techniques used in building this project.
+
+# License 
+
+MIT License.
+
 
