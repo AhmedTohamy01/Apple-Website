@@ -137,6 +137,10 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* body * {
+  border: solid red;
+} */
+
 /* ######################################### MAIN SECTION ############################################ */
 
 .main-section {
@@ -223,29 +227,29 @@ html {
 
 /* ######################################### MAIN TITLE ############################################ */
 
-.mainwords {
+.main-words {
   color: white;
   text-align: center;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-.firstword {
+.first-word {
   font-size: 4rem;
   padding-top: 60px;
 }
 
-.secondword {
+.second-word {
   font-size: 2rem;
-  padding-top: 20px;
+  padding: 20px 50px 0 50px;
   line-height: 3rem;
 }
 
-.thirdword {
+.third-word {
   padding-top: 30px;
 }
 
-.thirdword a {
+.third-word a {
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
@@ -256,7 +260,7 @@ html {
   color: rgb(88, 88, 219);
 }
 
-.thirdword a:hover {
+.third-word a:hover {
   text-decoration: underline;
 }
 
@@ -355,8 +359,30 @@ html {
     display: none;
   }
 
-  .mainwords {
+  .main-words {
     padding-top: 15%;
+  }
+
+  .first-word {
+    font-size: 3rem;
+    padding-top: 60px;
+  }
+  
+  .second-word {
+    font-size: 1.5rem;
+
+    padding: 20px 50px 0 50px;
+    line-height: 3rem;
+  }
+  
+  .third-word {
+    padding-top: 30px;
+  }
+  
+  .third-word a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
   }
 }
 
@@ -368,7 +394,7 @@ html {
     min-width: 375px;
   }
 
-  .secondword {
+  .second-word {
     display: none;
   }
 }
